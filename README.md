@@ -1,9 +1,9 @@
 # 🔒 The code and data will be made publicly available after the journal review process is complete.
 
-# OPTIMAL SPARSITY STRUCTURE FOR BAYESIAN NEURAL NETWORK 
+# OPTIMAL SPARSITY STRUCTURED BAYESIAN NEURAL NETWORK 
 
 ## Overview
-This repository contains the implementation of OPTIMAL SPARSITY STRUCTURE FOR BAYESIAN NEURAL NETWORK, which uses Gaussian mixture model (GMM) approximations to provide a descriptive representation of the complex non-Gaussian parameter posteriors. The framework is designed to improve uncertainty quantification and alleviate overfitting within the Bayesian neural network.
+This repository contains the implementation of OPTIMAL SPARSITY STRUCTURED BAYESIAN NEURAL NETWORK, which uses Gaussian mixture model (GMM) approximations to provide a descriptive representation of the complex non-Gaussian parameter posteriors. The framework is designed to improve uncertainty quantification and alleviate overfitting within the Bayesian neural network.
 
 
 <table width="100%">
