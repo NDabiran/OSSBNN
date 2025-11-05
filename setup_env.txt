@@ -1,0 +1,49 @@
+#!/bin/bash
+
+# Load required modules
+module load python/3  # Adjust based on available versions
+
+# Virtual environment name
+VENV_NAME="myenv"
+
+# Check if virtual environment already exists
+if [ -d "$VENV_NAME" ]; then
+    echo "Virtual environment '$VENV_NAME' already exists. Skipping creation."
+else
+    # Create virtual environment
+    echo "Creating virtual environment '$VENV_NAME'..."
+    python -m venv $VENV_NAME
+    echo "Virtual environment created!"
+fi
+
+# Activate the virtual environment
+source $VENV_NAME/bin/activate
+
+# Upgrade pip
+echo "Upgrading pip..."
+pip install --upgrade pip
+
+# Check if requirements.txt exists
+if [ -f "requirements.txt" ]; then
+    echo "Installing dependencies from requirements.txt..."
+    pip install -r requirements.txt
+else
+    echo "No requirements.txt found. Creating one..."
+    # Generate a basic requirements.txt
+    cat <<EOT > requirements.txt
+matplotlib
+numpy
+pandas
+seaborn
+scikit-learn
+scipy
+tensorflow
+tensorflow-probability
+keras
+EOT
+    echo "Installing default dependencies..."
+    pip install -r requirements.txt
+fi
+
+echo "All dependencies installed successfully!"
+echo "To activate your virtual environment, run: source $VENV_NAME/bin/activate"

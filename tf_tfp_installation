@@ -1,0 +1,26 @@
+#https://docs.alliancecan.ca/wiki/Tutoriel_Apprentissage_machine/en
+
+Tensorflow installation on Graham/Narval:
+- module load python/3
+- module load python/3.11.5
+
+create a venv for tensorflow and activate:
+- virtualenv --no-download tensorflow
+- source tensorflow/bin/activate
+- pip install --no-index --upgrade pip
+- pip install numpy --no-index
+
+- (check what version is available on CC)
+- pip install --no-index tensorflow==2.16.1
+- (or) pip install --no-index --find-links=/cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3 tensorflow==2.16.1
+
+- pip install --no-index --find-links=/cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3 tensorflow-probability
+- (or) pip install --upgrade tensorflow-probability
+
+- pip install tf-keras 
+
+other libraries as needed
+- pip install keras, pandas, matplotlib, scipy
+ (or)
+- pip install --no-index numpy
+- pip install --no-index matplotlib
