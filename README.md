@@ -1,3 +1,5 @@
+# 🔒 The code and data will be made publicly available after the journal review process is complete.
+
 # OPTIMAL SPARSITY STRUCTURE FOR BAYESIAN NEURAL NETWORK 
 
 ## Overview
