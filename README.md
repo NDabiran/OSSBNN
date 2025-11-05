@@ -32,11 +32,11 @@ The code used to generate the results presented in the paper [OPTIMAL SPARSITY S
 Clone this repository:  
 `git clone git@github.com:NDabiran/OSS-BNN.git`  
 
-This creates a virtual environment and installs requirement libraries:
+This creates a virtual environment and installs the required libraries:
 `chmod +x setup_env.sh`
 `./setup_env.sh`
 
-The codes are tested on Ubuntu 22.04, and various machines in the Digital Research Alliance of Canada consortium.  
+The codes are tested on Ubuntu 22.04 and various machines in the Digital Research Alliance of Canada consortium.  
 
 ## Repository Structure
 ```
