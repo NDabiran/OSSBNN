@@ -1,4 +1,4 @@
-# 🔒 The code and data will be made publicly available after the journal review process is complete.
+# 🔒 The code and data will be made publicly available after the journal review process is completed.
 
 # OPTIMAL SPARSITY STRUCTURED BAYESIAN NEURAL NETWORK 
 
