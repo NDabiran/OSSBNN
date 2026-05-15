@@ -8,9 +8,15 @@ This repository contains the implementation of OPTIMAL SPARSITY STRUCTURED BAYES
 
 <table width="100%">
   <tr>
-    <td width="33%" align="center"><img src="https://github.com/user-attachments/assets/2d85523b-6ab2-4fef-9fcf-a472dd902f89" width="100%"></td>
-    <td width="33%" align="center"><img src="https://github.com/user-attachments/assets/270c6741-838b-4a1e-98f3-4c90fd12bc63" width="100%"></td>
-    <td width="33%" align="center"><img src="https://github.com/user-attachments/assets/ca35c096-622e-4550-bb5d-b468322e3ecf" width="100%"></td>
+    <td width="33%" align="center">
+      <img src="./plots/3d_jpdf.png" width="100%">
+    </td>
+    <td width="33%" align="center">
+      <img src="./plots/oss-bnn-1.png" width="100%">
+    </td>
+    <td width="33%" align="center">
+      <img src="./plots/rotating_3d.gif" width="100%">
+    </td>
   </tr>
 </table>
 
