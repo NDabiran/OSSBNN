@@ -21,7 +21,7 @@ This repository contains the implementation of OPTIMAL SPARSITY STRUCTURED BAYES
 </table>
 
 
-![Image](https://github.com/user-attachments/assets/8a933d77-d066-4026-be67-06be5205d811)
+![OSS-BNN result](./plots/oss-bnn-1.png)
 
 The code used to generate the results presented in the paper [OPTIMAL SPARSITY STRUCTURE FOR BAYESIAN NEURAL NETWORK] can be found in the `/oss-bnn` directory.
 
